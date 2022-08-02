@@ -1,0 +1,234 @@
+@media(max-width:1440px) {
+    body {
+        background-color: hsl(217, 54%, 11%);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    }
+    h3 {
+        color: mintcream;
+        font-weight: 100;
+        letter-spacing: 1px;
+        word-spacing: 4px;
+        font-size: 20px;
+    }
+    h3:hover {
+        color: cyan;
+        cursor: pointer;
+    }
+    p {
+        font-size: 18px;
+        color: hsl(215, 51%, 70%);
+        word-spacing: 4px;
+    }
+    .pavatar {
+        color: hsl(215, 51%, 70%);
+        font-size: 18px;
+        position: relative;
+        left: 40px;
+        top: 15px;
+    
+    }
+    .pAvatar {
+        color: mintcream;
+        font-size: 18px;
+        position: relative;
+        left: 40px;
+        top: 15px;
+    
+    }
+    .pAvatar:hover {
+        color: cyan;
+        cursor: pointer;
+        font-size: 18px;
+        position: relative;
+        left: 40px;
+        top: 15px;
+    
+    }
+    
+    .container {
+        width: 30%;
+        margin: auto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        background-color: hsl(216, 50%, 16%);
+        border-radius: 20px;
+    }
+    .box{
+        border-radius: 6%;
+        position: relative;
+    }
+    .highlight {
+        background-color:  hsl(178, 100%, 50%, 50%);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        border-radius: 6%;
+        justify-content: center;
+        opacity: 0;
+    }
+    .highlight:hover {
+        opacity: 1;
+        cursor: pointer;
+    }
+    .view {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .img1 {
+        border-radius: 20px;
+        width: 100%;
+    }
+    .box1 {
+        border-bottom: 1px solid  hsl(215, 51%, 70%);
+        padding-bottom: 2rem;
+    
+    }
+    .avatar {
+        width: 12%;
+        border: 1px solid mintcream;
+        border-radius: 50%;
+        float: left;
+    }
+    .eth {
+        color: cyan;
+    }
+    .time {
+        color: hsl(215, 51%, 70%);
+        position: relative;
+        left: 170px;
+    }
+    .clock {
+        position: relative;
+        left: 170px;
+        top: 3px;
+    }
+    
+    
+}
+
+@media(max-width: 600px) {
+    
+    h3 {
+        color: mintcream;
+        font-weight: 100;
+        letter-spacing: 1px;
+        word-spacing: 3px;
+        font-size: 18px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .container {
+        width: 90%;
+        margin: auto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        background-color: hsl(216, 50%, 16%);
+        border-radius: 20px;
+    }
+    
+    .view {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .img1 {
+        border-radius: 20px;
+        width: 100%;
+    }
+    .box1 {
+        border-bottom: 1px solid  hsl(215, 51%, 70%);
+        padding: 2rem;
+    
+    }
+    .avatar {
+        width: 12%;
+        border: 1px solid mintcream;
+        border-radius: 50%;
+        float: left;
+    }
+    .time {
+        color: hsl(215, 51%, 70%);
+        position: relative;
+        left: 150px;
+    }
+    .clock {
+        position: relative;
+        left: 150px;
+        top: 3px;
+    }
+}
+
+
+@media(max-width: 425px) {
+    .time {
+        color: hsl(215, 51%, 70%);
+        position: relative;
+        left: 130px;
+    }
+    .clock {
+        position: relative;
+        left: 125px;
+        top: 3px;
+    }
+    .box1 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+
+@media(max-width: 375px) {
+    .time {
+        color: hsl(215, 51%, 70%);
+        position: relative;
+        left: 80px;
+    }
+    .clock {
+        position: relative;
+        left: 75px;
+        top: 3px;
+    }
+    .box1 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+
+@media(max-width: 325px) {
+    .time {
+        color: hsl(215, 51%, 70%);
+        position: relative;
+        left: 65px;
+    }
+    .clock {
+        position: relative;
+        left: 65px;
+        top: 3px;
+    }
+    .box1 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .pavatar {
+        position: relative;
+        left: 20px;
+        top: 5px;
+    
+    }
+    .pAvatar {
+        position: relative;
+        left: 20px;
+        top: 5px;
+    
+    }
+}
+
