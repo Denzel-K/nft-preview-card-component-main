@@ -24,15 +24,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](images/desktop-view-screenshot.png)
+![](images/desktop-view-shot.png)
 ![](images/mobile-view-shot.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
+- Solution URL: https://www.frontendmentor.io/solutions/responsive-page-for-nftpreview-component-PtgjFliWug
+- Live Site URL: https://kariukidenzel-nft-preview-card-component-main.netlify.app/)
 
 ### My process
 
