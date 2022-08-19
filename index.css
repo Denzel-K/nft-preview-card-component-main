@@ -22,28 +22,17 @@
     }
     .pavatar {
         color: hsl(215, 51%, 70%);
-        font-size: 18px;
-        position: relative;
-        left: 40px;
-        top: 15px;
-    
+        font-size: 18px; 
     }
     .pAvatar {
         color: mintcream;
         font-size: 18px;
-        position: relative;
-        left: 40px;
-        top: 15px;
-    
     }
     .pAvatar:hover {
         color: cyan;
         cursor: pointer;
         font-size: 18px;
-        position: relative;
-        left: 40px;
-        top: 15px;
-    
+
     }
     .bigcontainer {
         padding-top: 70px;
@@ -92,27 +81,35 @@
         padding-bottom: 2rem;
     
     }
-    .avatar {
-        width: 12%;
-        border: 1px solid mintcream;
-        border-radius: 50%;
-        float: left;
+    
+    .div1 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
     }
     .eth {
         color: cyan;
     }
     .time {
         color: hsl(215, 51%, 70%);
-        position: relative;
-        left: 170px;
+    }    
+    .div2 {
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
     }
-    .clock {
-        position: relative;
-        left: 170px;
-        top: 3px;
+    .div_2_a {
+        width: 18%;
     }
-    
-    
+    .avatar {
+        width: 100%;
+        border: 1px solid mintcream;
+        border-radius: 50%;
+    }
 }
 
 @media(max-width: 600px) {
@@ -152,87 +149,6 @@
         padding: 2rem;
     
     }
-    .avatar {
-        width: 12%;
-        border: 1px solid mintcream;
-        border-radius: 50%;
-        float: left;
-    }
-    .time {
-        color: hsl(215, 51%, 70%);
-        position: relative;
-        left: 150px;
-    }
-    .clock {
-        position: relative;
-        left: 150px;
-        top: 3px;
-    }
 }
 
-
-@media(max-width: 425px) {
-    .time {
-        color: hsl(215, 51%, 70%);
-        position: relative;
-        left: 130px;
-    }
-    .clock {
-        position: relative;
-        left: 125px;
-        top: 3px;
-    }
-    .box1 {
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
-
-
-@media(max-width: 375px) {
-    .time {
-        color: hsl(215, 51%, 70%);
-        position: relative;
-        left: 80px;
-    }
-    .clock {
-        position: relative;
-        left: 75px;
-        top: 3px;
-    }
-    .box1 {
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
-
-
-@media(max-width: 325px) {
-    .time {
-        color: hsl(215, 51%, 70%);
-        position: relative;
-        left: 65px;
-    }
-    .clock {
-        position: relative;
-        left: 65px;
-        top: 3px;
-    }
-    .box1 {
-        padding-left: 0;
-        padding-right: 0;
-    }
-    .pavatar {
-        position: relative;
-        left: 20px;
-        top: 5px;
-    
-    }
-    .pAvatar {
-        position: relative;
-        left: 20px;
-        top: 5px;
-    
-    }
-}
 
