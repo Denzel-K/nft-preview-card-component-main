@@ -112,8 +112,21 @@
     }
 }
 
+@media(max-width: 1024px) {
+    .container {
+        width: 45%;
+        margin: auto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        background-color: hsl(216, 50%, 16%);
+        border-radius: 20px;
+    }
+}
 @media(max-width: 600px) {
-    
+    body {
+        font-size: 16px;
+    }
     h3 {
         color: mintcream;
         font-weight: 100;
@@ -127,7 +140,7 @@
     .container {
         width: 90%;
         margin: auto;
-        padding: 20px;
+        padding: 10px;
         display: flex;
         flex-direction: column;
         background-color: hsl(216, 50%, 16%);
@@ -146,8 +159,27 @@
     }
     .box1 {
         border-bottom: 1px solid  hsl(215, 51%, 70%);
-        padding: 2rem;
+        padding: 12px;
     
+    }
+}
+
+@media (max-width: 375px) {
+    body {
+        font-size: 14px;
+    }
+    .container {
+        padding: 10px;
+    }
+    .box1 {
+        padding: 10px;
+    }
+    .div2 {
+        justify-content: space-between;
+        padding: 0;
+    }
+    .div_2_a {
+        width: 10%;
     }
 }
 
