@@ -1,115 +1,113 @@
-@media(max-width:1440px) {
-    body {
-        background-color: hsl(217, 54%, 11%);
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-    }
-    h3 {
-        color: mintcream;
-        font-weight: 100;
-        letter-spacing: 1px;
-        word-spacing: 4px;
-        font-size: 20px;
-    }
-    h3:hover {
-        color: cyan;
-        cursor: pointer;
-    }
-    p {
-        font-size: 18px;
-        color: hsl(215, 51%, 70%);
-        word-spacing: 4px;
-    }
-    .pavatar {
-        color: hsl(215, 51%, 70%);
-        font-size: 18px; 
-    }
-    .pAvatar {
-        color: mintcream;
-        font-size: 18px;
-    }
-    .pAvatar:hover {
-        color: cyan;
-        cursor: pointer;
-        font-size: 18px;
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
-    }
-    .bigcontainer {
-        padding-top: 70px;
-        padding-bottom: 20px;
+}
+h3 {
+    color: mintcream;
+    font-weight: 100;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    font-size: 20px;
+}
+h3:hover {
+    color: cyan;
+    cursor: pointer;
+}
+p {
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+    word-spacing: 4px;
+}
+.pavatar {
+    color: hsl(215, 51%, 70%);
+    font-size: 18px; 
+}
+.pAvatar {
+    color: mintcream;
+    font-size: 18px;
+}
+.pAvatar:hover {
+    color: cyan;
+    cursor: pointer;
+    font-size: 18px;
 
-    }
-    .container {
-        width: 30%;
-        margin: auto;
-        padding: 20px;
-        display: flex;
-        flex-direction: column;
-        background-color: hsl(216, 50%, 16%);
-        border-radius: 20px;
-    }
-    .box{
-        border-radius: 6%;
-        position: relative;
-    }
-    .highlight {
-        background-color:  hsl(178, 100%, 50%, 50%);
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        border-radius: 6%;
-        justify-content: center;
-        opacity: 0;
-    }
-    .highlight:hover {
-        opacity: 1;
-        cursor: pointer;
-    }
-    .view {
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-    }
-    .img1 {
-        border-radius: 20px;
-        width: 100%;
-    }
-    .box1 {
-        border-bottom: 1px solid  hsl(215, 51%, 70%);
-        padding-bottom: 2rem;
-    
-    }
-    
-    .div1 {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .eth {
-        color: cyan;
-    }
-    .time {
-        color: hsl(215, 51%, 70%);
-    }    
-    .div2 {
-        padding: 10px 20px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-    }
-    .div_2_a {
-        width: 18%;
-    }
-    .avatar {
-        width: 100%;
-        border: 1px solid mintcream;
-        border-radius: 50%;
-    }
+}
+.bigcontainer {
+    padding-top: 70px;
+    padding-bottom: 20px;
+
+}
+.container {
+    width: 30%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+}
+.box{
+    border-radius: 6%;
+    position: relative;
+}
+.highlight {
+    background-color:  hsl(178, 100%, 50%, 50%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    border-radius: 6%;
+    justify-content: center;
+    opacity: 0;
+}
+.highlight:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+.view {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.img1 {
+    border-radius: 20px;
+    width: 100%;
+}
+.box1 {
+    border-bottom: 1px solid  hsl(215, 51%, 70%);
+    padding-bottom: 2rem;
+
+}
+
+.div1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.eth {
+    color: cyan;
+}
+.time {
+    color: hsl(215, 51%, 70%);
+}    
+.div2 {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.div_2_a {
+    width: 18%;
+}
+.avatar {
+    width: 100%;
+    border: 1px solid mintcream;
+    border-radius: 50%;
 }
 
 @media(max-width: 1024px) {
